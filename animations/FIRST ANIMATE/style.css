@@ -5,7 +5,10 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+<<<<<<< HEAD
     box-sizing: border-box;
+=======
+>>>>>>> 81e0aa9016e347857add8d46cd0b29b3e3d812fd
 }
 
 body{
@@ -61,7 +64,10 @@ section button{
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.699);
     backdrop-filter: blur(2px);
+<<<<<<< HEAD
     transition: all .1s ease;
+=======
+>>>>>>> 81e0aa9016e347857add8d46cd0b29b3e3d812fd
 }
 
 .container.active{
@@ -85,9 +91,12 @@ section button{
     animation-fill-mode: forwards;
     z-index: 100;
     transition: all .1s ease;
+<<<<<<< HEAD
     position: relative;
 
    
+=======
+>>>>>>> 81e0aa9016e347857add8d46cd0b29b3e3d812fd
 }
 
 .container.active .modal{
@@ -160,12 +169,16 @@ section button{
         visibility: hidden;
     }
 }
+<<<<<<< HEAD
 @keyframes fadeoutBackgroud{
     to{
         background-color: rgba(255, 255, 255, 0);
         backdrop-filter: blur(0);
     }
 }
+=======
+
+>>>>>>> 81e0aa9016e347857add8d46cd0b29b3e3d812fd
 @keyframes closeWidth{
     from{
         width: 50%;
@@ -173,7 +186,11 @@ section button{
     }
 
     to{
+<<<<<<< HEAD
         width: 1%;
+=======
+        width: 0;
+>>>>>>> 81e0aa9016e347857add8d46cd0b29b3e3d812fd
         height: 500px;
     }
 }
@@ -181,7 +198,11 @@ section button{
 @keyframes closeHeight{
     from{
         height: 500px;
+<<<<<<< HEAD
         width: 1%;
+=======
+        width: 0;
+>>>>>>> 81e0aa9016e347857add8d46cd0b29b3e3d812fd
     }
 
     to{

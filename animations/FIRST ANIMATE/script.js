@@ -42,6 +42,10 @@ close.addEventListener('click', () => {
         p.style.animation = "showText 1s linear 2s forwards";
         button.style.animation = "showText 1s linear 2s forwards";
 
+<<<<<<< HEAD
     }, 1000);
+=======
+    }, 2000);
+>>>>>>> 81e0aa9016e347857add8d46cd0b29b3e3d812fd
 });
 
